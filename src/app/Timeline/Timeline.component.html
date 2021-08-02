@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="card">
+  <div class="card-body">
+    <div class="cardDisplay">
+      <div class="summaryCards">
+        <div class="innerCard" *ngFor="let row of products">
+          <div class="customCard">
+            <div class="customCardDetail">
+              <b>Company: </b>{{row.Company}} <br/>
+              <b>Price: </b>{{row.Price}}<br/>
+              <b>Quantity: </b>{{row.Quantity}}<br/>
+              <b>Date: </b>{{row.Date}}<br/>
+              <b>Percent Markup: </b>{{row.Markup}}<br/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

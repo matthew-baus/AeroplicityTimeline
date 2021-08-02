@@ -1,0 +1,31 @@
+.card-body{
+  padding-left: 1%
+}
+
+span{
+  display: block;
+  overflow: hidden;
+  padding: 0px 4px 0px 6 px;
+  width: 60%
+}
+
+.row{
+  display: flex;
+}
+
+.cardDisplay{
+  content: "";
+  display: table;
+  width: 75%
+}
+
+.customCard{
+  width: 48%;
+  min-height: 200px;
+  height: 20%;
+  float: left;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}

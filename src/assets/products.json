@@ -1,0 +1,16 @@
+[
+  {
+    "Company": "General Aviation",
+    "Price": 1000,
+    "Quantity": 10000,
+    "Markup": 0,
+    "Date": "1/1/2021"
+  },
+  {
+    "Company": "Cessna",
+    "Price": 1500,
+    "Quantity": 5000,
+    "Markup": 50,
+    "Date": "1/6/2021"
+  }
+]
